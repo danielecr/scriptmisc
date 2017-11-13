@@ -29,3 +29,5 @@ TARGET=$(findTarget)
 
 
 byzanz-record -x $X -y $Y -w $W -h $H -d $D $TARGET
+
+echo "I wrote $TARGET"
